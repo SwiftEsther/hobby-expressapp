@@ -8,6 +8,11 @@
     "server": "nodemon app.js",
     "dev": "concurrently --kill-others-on-fail \"yarn app\" \"yarn client\""
   },
+  "engines": {
+    "node": "8.11.2",
+    "npm": "6.1.0",
+    "yarn": "1.7.0"
+  },
   "dependencies": {
     "ajv": "^6.5.1",
     "axios": "^0.18.0",
